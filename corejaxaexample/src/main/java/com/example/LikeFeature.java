@@ -1,17 +1,15 @@
 package com.example;
+
 import java.util.Scanner;
+
 public class LikeFeature {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String result = scan.nextLine();
-        String input [] = result.split(" ");  
+        String input[] = result.split(" ");
         viewLikes(input);
-        System.out.println( viewLikes(input));
+        System.out.println(viewLikes(input));
         scan.close();
-
-        
-        //System.out.println(LikeFeature.viewLikes(strAr2));
-
     }
 
     public static String viewLikes(String[] names) {
